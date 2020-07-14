@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="PancakeViewBugTitleView.MainPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <pancakeView:PancakeView HeightRequest="40" CornerRadius="20,20,20,20" BackgroundColor="Gray">
+                <pancakeView:PancakeView.Border>
+                    <pancakeView:Border Color="#33333c" Thickness="1" />
+                </pancakeView:PancakeView.Border>
+                <StackLayout Orientation="Horizontal" HeightRequest="20" Padding="10,0,10,0">
+                    <Image Source="icon_search.png" HorizontalOptions="Start" VerticalOptions="CenterAndExpand"/>
+                    <Entry Placeholder="Click here, try to type, it will crash"
+                                          HorizontalOptions="FillAndExpand"
+                                          VerticalOptions="CenterAndExpand"
+                                          MaxLength="20"
+                                          IsTextPredictionEnabled="False"
+                                          IsSpellCheckEnabled="False"
+                                          ReturnType="Done">
+                    </Entry>
+                </StackLayout>
+            </pancakeView:PancakeView>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <pancakeView:PancakeView HeightRequest="40" CornerRadius="20,20,20,20" BackgroundColor="Gray">
+                <pancakeView:PancakeView.Border>
+                    <pancakeView:Border Color="#33333c" Thickness="1" />
+                </pancakeView:PancakeView.Border>
+                <StackLayout Orientation="Horizontal" HeightRequest="20" Padding="10,0,10,0">
+                    <Image Source="icon_search.png" HorizontalOptions="Start" VerticalOptions="CenterAndExpand"/>
+                    <Entry Placeholder="Sometimes crashes here too, but it's very rare"
+                                          HorizontalOptions="FillAndExpand"
+                                          VerticalOptions="CenterAndExpand"
+                                          MaxLength="20"
+                                          IsTextPredictionEnabled="False"
+                                          IsSpellCheckEnabled="False"
+                                          ReturnType="Done">
+                    </Entry>
+                </StackLayout>
+            </pancakeView:PancakeView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

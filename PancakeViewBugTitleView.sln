@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PancakeViewBugTitleView.Android", "PancakeViewBugTitleView.Android\PancakeViewBugTitleView.Android.csproj", "{1B9C3110-FB3D-4C01-B309-EF5B34B5BC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PancakeViewBugTitleView", "PancakeViewBugTitleView\PancakeViewBugTitleView.csproj", "{BCB0AA72-B7F4-4A17-BF39-445F171CF17F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B9C3110-FB3D-4C01-B309-EF5B34B5BC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9C3110-FB3D-4C01-B309-EF5B34B5BC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9C3110-FB3D-4C01-B309-EF5B34B5BC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9C3110-FB3D-4C01-B309-EF5B34B5BC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB0AA72-B7F4-4A17-BF39-445F171CF17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB0AA72-B7F4-4A17-BF39-445F171CF17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB0AA72-B7F4-4A17-BF39-445F171CF17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB0AA72-B7F4-4A17-BF39-445F171CF17F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
